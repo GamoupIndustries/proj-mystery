@@ -11,7 +11,7 @@ class Title extends Phaser.Scene {
   }
   update() {
     if (event.keyCode == 37) {
-        player.setSpritePos(player.x - 1, player.y);
+        player.setSpritePos(player.x - 3, player.y);
     }
   }
 }
