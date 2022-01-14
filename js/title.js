@@ -10,6 +10,8 @@ class Title extends Phaser.Scene {
     var player = this.add.image(270, 270, "player");
   }
   update() {
-
+    if (event.keyCode == 37) {
+        player.x -= 3;
+    }
   }
 }
