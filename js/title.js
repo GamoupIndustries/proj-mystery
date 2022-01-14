@@ -6,12 +6,10 @@ class Title extends Phaser.Scene {
     this.load.image("player", "assets/images/player.png");
   }
   create() {
-    this.text = this.add.text(20, 20, "Loading Game");
+    this.text = this.add.text(20, 20, "Hello World");
     this.player = this.add.image(270, 270, "player");
   }
   update() {
-    if (event.keyCode == 37) {
-        this.player.setSpritePos(player.x - 3, player.y);
-    }
+    
   }
 }
